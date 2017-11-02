@@ -45,7 +45,7 @@ metadata {
 
 // parse events into attributes
 def parse(String description) {
-	log.debug "Virtual siwtch parsing '${description}'"
+	log.debug "Virtual switch parsing '${description}'"
 }
 
 def poll() {
